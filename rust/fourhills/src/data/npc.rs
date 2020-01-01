@@ -5,16 +5,16 @@ use crate::utils::text_utils::{centre_pad, wrap_lines_paragraph, capitalise};
 /// Represents a non-player character.
 #[derive(Debug)]
 pub struct Npc {
-    name: String,
-    appearance: String,
-    description: Option<String>,
-    temperament: Option<String>,
-    accent: Option<String>,
-    phrases: Option<Vec<String>>,
-    background: Option<String>,
-    deceased: Option<bool>,
-    stats: Option<StatBlock>,
-    stats_base: Option<String>,
+    pub name: String,
+    pub appearance: String,
+    pub description: Option<String>,
+    pub temperament: Option<String>,
+    pub accent: Option<String>,
+    pub phrases: Option<Vec<String>>,
+    pub background: Option<String>,
+    pub deceased: Option<bool>,
+    pub stats: Option<StatBlock>,
+    pub stats_base: Option<String>,
 }
 
 impl Npc {

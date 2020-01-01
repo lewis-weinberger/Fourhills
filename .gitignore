@@ -14,5 +14,4 @@ venv/
 
 # Rust
 rust/fourhills/target/
-rust/fourhill/Cargo.lock
 **/*.rs.bk
