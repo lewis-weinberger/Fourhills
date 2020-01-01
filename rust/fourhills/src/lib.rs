@@ -1,5 +1,8 @@
 #![recursion_limit = "128"]
 
+pub mod data;
+pub mod utils;
+
 use yew::services::ConsoleService;
 use yew::{html, Component, ComponentLink, Html, ShouldRender};
 

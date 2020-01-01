@@ -7,3 +7,12 @@ venv/
 
 # Ignore VSCode data if present
 .vscode/
+
+# Ignore Emacs and Vim data if present
+*.swp
+*~
+
+# Rust
+rust/fourhills/target/
+rust/fourhill/Cargo.lock
+**/*.rs.bk
